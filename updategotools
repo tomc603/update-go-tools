@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+echo "Updating Go tools"
+go get -u github.com/golang/lint/golint github.com/kisielk/errcheck github.com/lukehoban/go-outline github.com/newhook/go-symbols github.com/nsf/gocode github.com/rogpeppe/godef github.com/tpng/gopkgs golang.org/x/tools/cmd/gorename golang.org/x/tools/cmd/guru sourcegraph.com/sqs/goreturns
